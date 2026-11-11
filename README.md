@@ -26,5 +26,5 @@ Wynik: `bin/Debug/store.dacpac`.
 ```bash
 sqlpackage /Action:Publish \
   /SourceFile:bin/Debug/store.dacpac \
-  /TargetConnectionString:"Server=tcp:store.database.windows.net,1433;Initial Catalog=store;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;Authentication=Active Directory Default"
+  /TargetConnectionString:"Server=tcp:[YourAzureDomain].database.windows.net,1433;Initial Catalog=store;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;Authentication=Active Directory Default"
 ```
