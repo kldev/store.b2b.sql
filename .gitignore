@@ -1,0 +1,27 @@
+# Build output (SDK-style SQL project)
+bin/
+obj/
+*.dacpac
+
+# Publish profiles and local settings (may contain connection strings)
+*.publish.xml
+*.user
+*.suo
+.vs/
+.env
+.env.*
+
+# VS Code: keep shared tasks/extensions, ignore personal settings
+.vscode/*
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# Agent task files (local only)
+.instructions/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode
